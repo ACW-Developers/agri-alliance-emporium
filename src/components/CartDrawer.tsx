@@ -63,7 +63,7 @@ export const CartDrawer = ({ isOpen, onClose }: CartDrawerProps) => {
                       />
                       <div className="flex-1 min-w-0">
                         <h4 className="font-medium text-sm line-clamp-2">{item.name}</h4>
-                        <p className="text-primary font-semibold">${item.price.toFixed(2)}</p>
+                        <p className="text-primary font-semibold">Ksh{item.price.toFixed(2)}</p>
                       </div>
                       <div className="flex items-center space-x-2">
                         <Button
